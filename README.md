@@ -1,5 +1,5 @@
 # OpenBCI_Python_ROS
-The Python software library built upon [OpenBCI_Python](https://github.com/OpenBCI/OpenBCI_Python) to run create an interface between the Ganglion and ROS. 
+This is a Python software library built upon [OpenBCI_Python](https://github.com/OpenBCI/OpenBCI_Python) to run create an interface between the OpenBCI Ganglion and ROS. 
 I have tested it on the Ganglion using BLE and the guide below is written for Ganglion. I have not tested it on Cyton and it may need additional tweaking to work with the Cyton board. 
 
 ## Getting Started
