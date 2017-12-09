@@ -18,7 +18,7 @@ source devel/setup.bash
 ```
 Note: Remember to do this everytime you open a new terminal and gain root access using `sudo bash`.
 
-Move into the `src/<your_package_name>/scripts`. Clone the all the files in this repository into your current directory. Remember to use the recursive flags as listed on [OpenBCI_Python](https://github.com/OpenBCI/OpenBCI_Python). Move into `bluepy/bluepy`.
+Move into the `src/<your_package_name>/scripts`. Clone the all the files in this repository into your current directory. Remember to use the recursive flags as listed on [OpenBCI_Python](https://github.com/OpenBCI/OpenBCI_Python). Move into `bluepy/bluepy` and type `make`.
 Open a new terminal and run `hcitool dev`. Find out the hci number of your CSR bluetooth module. Open `btle.py` from `bluepy/bluepy` and find the Scanner class definition.
 ```
 class Scanner(BluepyHelper):
